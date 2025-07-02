@@ -1,0 +1,20 @@
+name: chatdrug_env
+channels:
+ - conda-forge
+dependencies:
+ - python=3
+ - rdkit=2022.09.4
+ - numpy
+ - networkx
+ - scikit-learn
+ - pytorch=1.9.1
+ - tensorflow
+ - mhcflurry
+ - transformers
+ - lmdb
+ - seqeval
+ - openai
+ - fastchat
+ - psutil
+ - accelerate
+ # Requires an OpenAI key
